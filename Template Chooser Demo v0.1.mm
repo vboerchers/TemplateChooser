@@ -1,7 +1,7 @@
-<map version="freeplane 1.5.9">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Template Demo&#xa;v0.1" FOLDED="false" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1484950978679" BACKGROUND_COLOR="#ffcc99"><hook NAME="MapStyle">
-    <properties show_icon_for_attributes="true" fit_to_viewport="false;"/>
+    <properties fit_to_viewport="false;" show_icon_for_attributes="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -276,7 +276,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="In Tools Menu, Open User Directory" ID="ID_1148081275" CREATED="1484944663217" MODIFIED="1484944684697"/>
@@ -286,8 +285,8 @@
 <edge COLOR="#808080"/>
 <node TEXT="Template: todo" FOLDED="true" ID="ID_1285857830" CREATED="1484862395913" MODIFIED="1484950547065" HGAP_QUANTITY="30.0 px" VSHIFT_QUANTITY="-40.0 px" BACKGROUND_COLOR="#ffcccc">
 <attribute_layout NAME_WIDTH="57.5999972534181 pt" VALUE_WIDTH="62.099997038841394 pt"/>
-<attribute NAME="start" VALUE="01-03-17" OBJECT="org.freeplane.features.format.FormattedDate|2017-03-01T00:00+1100|dd-MM-yy"/>
-<attribute NAME="status" VALUE="open" OBJECT="org.freeplane.features.format.FormattedObject|open|number:decimal:#0.####"/>
+<attribute NAME="start" VALUE="28-02-17" OBJECT="org.freeplane.features.format.FormattedDate|2017-02-28T14:00+0100|dd-MM-yy"/>
+<attribute NAME="status" VALUE="open" OBJECT="org.freeplane.features.format.FormattedObject|java.lang.String&amp;#x7c;open|number:decimal:#0.####"/>
 <attribute NAME="EffortLeft" VALUE="14" OBJECT="org.freeplane.features.format.FormattedNumber|14"/>
 <attribute NAME="EstComplete" VALUE="=node[&apos;start&apos;].to.date+node[&apos;EffortLeft&apos;].to.num.intValue()" OBJECT="org.freeplane.features.format.FormattedFormula|=node[&apos;start&apos;].to.date+node[&apos;EffortLeft&apos;].to.num.intValue()|dd-MM-yy"/>
 <richcontent TYPE="DETAILS">
@@ -308,8 +307,8 @@
 </node>
 <node TEXT="Template: meeting" LOCALIZED_STYLE_REF="defaultstyle.details" FOLDED="true" ID="ID_45782366" CREATED="1484862395913" MODIFIED="1484950595215" HGAP_QUANTITY="30.0 px" VSHIFT_QUANTITY="-40.0 px" BACKGROUND_COLOR="#ffff66">
 <attribute NAME="meetingType" VALUE="committee"/>
-<attribute NAME="date" VALUE="01-01-17" OBJECT="org.freeplane.features.format.FormattedObject|01-01-17|date:date:dd-MM-yy"/>
-<attribute NAME="MinutesDone" VALUE="no" OBJECT="org.freeplane.features.format.FormattedObject|no|number:decimal:#0.####"/>
+<attribute NAME="date" VALUE="01-01-17" OBJECT="org.freeplane.features.format.FormattedObject|java.lang.String&amp;#x7c;01-01-17|date:date:dd-MM-yy"/>
+<attribute NAME="MinutesDone" VALUE="no" OBJECT="org.freeplane.features.format.FormattedObject|java.lang.String&amp;#x7c;no|number:decimal:#0.####"/>
 <cloud COLOR="#ffff99" SHAPE="ARC"/>
 <node TEXT="Attendees" FOLDED="true" ID="ID_1628621423" CREATED="1484905967207" MODIFIED="1484905976417">
 <node TEXT="John Smith" ID="ID_1618064780" CREATED="1484905977384" MODIFIED="1484905992910"/>
@@ -323,17 +322,17 @@
 <node TEXT="Actions" FOLDED="true" ID="ID_619509773" CREATED="1484906048423" MODIFIED="1484906051151">
 <node TEXT="perform action 1" ID="ID_1246755539" CREATED="1484906052754" MODIFIED="1484908209249">
 <attribute NAME="Who" VALUE="JS"/>
-<attribute NAME="Due" VALUE="01-01-17" OBJECT="org.freeplane.features.format.FormattedDate|2017-01-01T00:00+1100|dd-MM-yy"/>
+<attribute NAME="Due" VALUE="31-12-16" OBJECT="org.freeplane.features.format.FormattedDate|2016-12-31T14:00+0100|dd-MM-yy"/>
 <attribute NAME="Complete" VALUE="no"/>
 </node>
 <node TEXT="perform action 2" ID="ID_175017245" CREATED="1484906052754" MODIFIED="1484908402647">
 <attribute NAME="Who" VALUE="JS"/>
-<attribute NAME="Due" VALUE="01-01-17" OBJECT="org.freeplane.features.format.FormattedDate|2017-01-01T00:00+1100|dd-MM-yy"/>
+<attribute NAME="Due" VALUE="31-12-16" OBJECT="org.freeplane.features.format.FormattedDate|2016-12-31T14:00+0100|dd-MM-yy"/>
 <attribute NAME="Complete" VALUE="yes"/>
 </node>
 <node TEXT="perform action 3" ID="ID_654786697" CREATED="1484906052754" MODIFIED="1484908266075">
 <attribute NAME="Who" VALUE="MJ"/>
-<attribute NAME="Due" VALUE="01-01-17" OBJECT="org.freeplane.features.format.FormattedDate|2017-01-01T00:00+1100|dd-MM-yy"/>
+<attribute NAME="Due" VALUE="31-12-16" OBJECT="org.freeplane.features.format.FormattedDate|2016-12-31T14:00+0100|dd-MM-yy"/>
 <attribute NAME="Complete" VALUE="no"/>
 </node>
 <node TEXT="Outstanding Actions Report" FOLDED="true" ID="ID_1175505787" CREATED="1484906315766" MODIFIED="1484909221741">
@@ -367,7 +366,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <cloud COLOR="#99ff99" SHAPE="ARC"/>
 <node TEXT="Due 15-03-17 Template: todo" ID="ID_1235137354" CREATED="1484911084387" MODIFIED="1484911084388"/>
@@ -392,7 +390,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <cloud COLOR="#99ff99" SHAPE="ARC"/>
 </node>
@@ -416,7 +413,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <cloud COLOR="#99ff99" SHAPE="ARC"/>
 </node>
@@ -452,10 +448,10 @@
 <node TEXT="tests" POSITION="left" ID="ID_554842639" CREATED="1484945472173" MODIFIED="1484945475812">
 <edge COLOR="#808080"/>
 <node TEXT="My todos" FOLDED="true" ID="ID_1873183287" CREATED="1484946480346" MODIFIED="1484946490556">
-<node TEXT="Template: todo" ID="ID_96378588" CREATED="1484862395913" MODIFIED="1484950743041" HGAP_QUANTITY="30.0 px" VSHIFT_QUANTITY="-40.0 px">
+<node TEXT="todo" ID="ID_96378588" CREATED="1484862395913" MODIFIED="1566762989513" HGAP_QUANTITY="30.0 px" VSHIFT_QUANTITY="-40.0 px">
 <attribute_layout NAME_WIDTH="57.5999972534181 pt" VALUE_WIDTH="62.099997038841394 pt"/>
-<attribute NAME="start" VALUE="01-03-17" OBJECT="org.freeplane.features.format.FormattedDate|2017-03-01T00:00+1100|dd-MM-yy"/>
-<attribute NAME="status" VALUE="closed" OBJECT="org.freeplane.features.format.FormattedObject|closed|number:decimal:#0.####"/>
+<attribute NAME="start" VALUE="28-02-17" OBJECT="org.freeplane.features.format.FormattedDate|2017-02-28T14:00+0100|dd-MM-yy"/>
+<attribute NAME="status" VALUE="closed" OBJECT="org.freeplane.features.format.FormattedObject|java.lang.String&amp;#x7c;closed|number:decimal:#0.####"/>
 <attribute NAME="EffortLeft" VALUE="14" OBJECT="org.freeplane.features.format.FormattedNumber|14"/>
 <attribute NAME="EstComplete" VALUE="=node[&apos;start&apos;].to.date+node[&apos;EffortLeft&apos;].to.num.intValue()" OBJECT="org.freeplane.features.format.FormattedFormula|=node[&apos;start&apos;].to.date+node[&apos;EffortLeft&apos;].to.num.intValue()|dd-MM-yy"/>
 <attribute NAME="type" VALUE="todo"/>
@@ -480,8 +476,8 @@
 <node TEXT="My Meetings" FOLDED="true" ID="ID_854619108" CREATED="1484948119795" MODIFIED="1484948124298">
 <node TEXT="meeting jan 2017" FOLDED="true" ID="ID_319501584" CREATED="1484862395913" MODIFIED="1484950765205" HGAP_QUANTITY="30.0 px" VSHIFT_QUANTITY="-40.0 px">
 <attribute NAME="meetingType" VALUE="committee"/>
-<attribute NAME="date" VALUE="01-01-17" OBJECT="org.freeplane.features.format.FormattedObject|01-01-17|date:date:dd-MM-yy"/>
-<attribute NAME="MinutesDone" VALUE="no" OBJECT="org.freeplane.features.format.FormattedObject|no|number:decimal:#0.####"/>
+<attribute NAME="date" VALUE="01-01-17" OBJECT="org.freeplane.features.format.FormattedObject|java.lang.String&amp;#x7c;01-01-17|date:date:dd-MM-yy"/>
+<attribute NAME="MinutesDone" VALUE="no" OBJECT="org.freeplane.features.format.FormattedObject|java.lang.String&amp;#x7c;no|number:decimal:#0.####"/>
 <attribute NAME="type" VALUE="meeting"/>
 <attribute NAME="created" VALUE="21-01-17"/>
 <cloud COLOR="#ffff99" SHAPE="ARC"/>
@@ -498,17 +494,17 @@
 <node TEXT="Actions" FOLDED="true" ID="ID_506721411" CREATED="1484906048423" MODIFIED="1484906051151">
 <node TEXT="Update Finances to end of year balances" ID="ID_1673555152" CREATED="1484906052754" MODIFIED="1484948551211">
 <attribute NAME="Who" VALUE="JS"/>
-<attribute NAME="Due" VALUE="01-01-17" OBJECT="org.freeplane.features.format.FormattedDate|2017-01-01T00:00+1100|dd-MM-yy"/>
+<attribute NAME="Due" VALUE="31-12-16" OBJECT="org.freeplane.features.format.FormattedDate|2016-12-31T14:00+0100|dd-MM-yy"/>
 <attribute NAME="Complete" VALUE="yes"/>
 </node>
 <node TEXT="Prepare relocation plan for new branch" ID="ID_1397900202" CREATED="1484906052754" MODIFIED="1484948520909">
 <attribute NAME="Who" VALUE="GM"/>
-<attribute NAME="Due" VALUE="01-01-17" OBJECT="org.freeplane.features.format.FormattedDate|2017-01-01T00:00+1100|dd-MM-yy"/>
+<attribute NAME="Due" VALUE="31-12-16" OBJECT="org.freeplane.features.format.FormattedDate|2016-12-31T14:00+0100|dd-MM-yy"/>
 <attribute NAME="Complete" VALUE="yes"/>
 </node>
 <node TEXT="Hire new branch manager" ID="ID_821182337" CREATED="1484906052754" MODIFIED="1484948544255">
 <attribute NAME="Who" VALUE="MJ"/>
-<attribute NAME="Due" VALUE="01-01-17" OBJECT="org.freeplane.features.format.FormattedDate|2017-01-01T00:00+1100|dd-MM-yy"/>
+<attribute NAME="Due" VALUE="31-12-16" OBJECT="org.freeplane.features.format.FormattedDate|2016-12-31T14:00+0100|dd-MM-yy"/>
 <attribute NAME="Complete" VALUE="no"/>
 </node>
 <node TEXT="Outstanding Actions Report" FOLDED="true" ID="ID_1883506620" CREATED="1484906315766" MODIFIED="1484948564191">
